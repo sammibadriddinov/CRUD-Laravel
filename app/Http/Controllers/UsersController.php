@@ -22,7 +22,7 @@ class UsersController extends Controller
     public function search(Request $request)
     {
       $search = $request->search;
-      $users = User::where('number', 'LIKE', "%{$search}%")->orderBy('number')->paginate(5);
+      $users = User::where('name', 'LIKE', "%{$search}%")->orderBy('name')->paginate(5);
       return view('index', compact('users'));
     }
 
