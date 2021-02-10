@@ -1,0 +1,15 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <PHPCodeStyleSettings>
+      <option name="INDENT_CODE_IN_PHP_TAGS" value="true" />
+    </PHPCodeStyleSettings>
+    <codeStyleSettings language="PHP">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+  </code_scheme>
+</component>
